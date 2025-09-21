@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cat Photo App</title>
+</head>
+<body>
+    <!--Headings-->
+    <h2>Cat Photo App</h2>
+    <main>
+        <h3>Cat Photos</h3>
+        <!--Paragraphs-->
+        <p>Clcik here to view more <a target="_blank" href="https://unsplash.com/s/photos/cat">cat photos</a>
+        </p>
+        <a href="#">
+            <img src="https://preview.redd.it/cr3bq2kk1clx.jpg?width=1080&crop=smart&auto=webp&s=70019a654a1f32769223a7b6ee526e44d17e4ebf"
+                alt="cat" height="400" width="400">
+        </a>
+        <h3>Cats List</h3>
+        <div class="lists">
+            <p>Things Cats <em>Love</em></p>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg"
+                alt="cat" height="400">
+            <p>Things cat <strong>hate</strong></p>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIHapIeCiwS7x6LmNiUMsGcyA3R8dgs-nSdQ&s"
+                alt="cat">
+        </div>
+        <form action="/submit-cat-photos">
+            <label for="in">
+                <input type="radio" name="in-out" id="in"> indoor
+            </label>
+            <br />
+            <label for="out">
+                <input type="radio" name="in-out" id="out"> outdoor
+            </label>
+            <br />
+            <input type="text" placeholder="Cat photo url" required>
+            <br />
+            <label for="loving">
+                <input type="checkbox" id="loving" name="personality"> Loving
+            </label>
+            <br />
+            <label for="lazy">
+                <input type="checkbox" id="lazy" name="personality"> Lazy
+            </label>
+            <br />
+            <label for="energy">
+                <input type="checkbox" id="energy" name="personality"> Loving
+            </label>
+            <br />
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>No Copyright -- @2025 <a href="#">something org.in</a></p>
+    </footer>
+</body>
+
+</html>
